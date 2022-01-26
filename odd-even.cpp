@@ -1,14 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int main () {
+void main()
+{
 	int num = 0;
 	cout << "Enter Number:- ";
 	cin >> num;
-	if (num % 2) {
-		cout << "ODD Number:- "<< num << endl;
-	} else {
-		cout << "EVEN Number:- "<< num << endl;
-	}
-	return 0;
+	if (num % 2)
+		cout << "ODD Number" << endl;
+	else
+		cout << "EVEN Number" << endl;
 }
