@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
 	int num = 0;
 	cout << "Enter Number:- ";
 	cin >> num;
