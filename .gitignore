@@ -31,8 +31,11 @@
 *.out
 *.app
 
-# build
+# Build
 main
+
+# Cache
+.ccls-cache
 
 # System
 .DS_Store
